@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ServerApplication</string>
+    <string name="port_label">Enter port</string>
+    <string name="address_label">Enter address</string>
+    <string name="init_button_label">Initialize configuration</string>
+    <string name="start_server_label">Start server</string>
+    <string name="stop_server_label">Stop server</string>
+</resources>

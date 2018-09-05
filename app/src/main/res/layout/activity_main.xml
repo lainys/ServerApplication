@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address_label" />
+
+    <EditText
+        android:id="@+id/address_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/port_label" />
+
+    <EditText
+        android:id="@+id/port_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/init_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/init_button_label" />
+
+    <ToggleButton
+        android:id="@+id/server_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textOff="@string/start_server_label"
+        android:textOn="@string/stop_server_label" />
+
+</LinearLayout>
